@@ -190,7 +190,7 @@ void shell_sort(linkedlist& l1){
     }
     
 }
-    void flatten(linkedlist& l1)
+    void flatten(linkedlist& l1)         //if you dont want to add child next to its parent and only flatten the linked list
     {
         node* curr=l1.head;
         node* last=l1.head;
@@ -269,7 +269,7 @@ void shell_sort(linkedlist& l1){
 
 // }
 
-void fltten(linkedlist& l1){
+void fltten(linkedlist& l1){     // if you want to add child after its parent while flattening the linked list
     node* temp=l1.head;
     node* naxt=NULL;
     node* tail=NULL;
